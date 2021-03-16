@@ -2,7 +2,7 @@
     --gradient-bg: linear-gradient(
         rgba(232, 102, 236, 0.3) 0%,
         rgba(232, 102, 236, 0.6) 100%);
-    --gray-bg: #353641;
+    --gray-bg: #33393f;
     --border-color: white;
 }
 /* Universal Selectors */
@@ -16,26 +16,26 @@ header  {
     text-align: center;
 }
 header h1 {
-    color: hotpink;
+    color: #e866ec;
 }
 
 footer {
     text-align: center;
 }
 footer h3 {
-    color: hotpink;
+    color: #e866ec;
 }
 /* Class Selectors */
 section.row {
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .card{
-    border-style: 3px dashed var(--border-color);
+    border: 3px dashed var(--border-color);
     flex: 1 0 200px;
     margin: 30px;
     flex: 1 0 0;
@@ -43,17 +43,16 @@ section.row {
 
 .card-title {
     border: 1px solid var(--border-color);
-    color:hotpink;
+    color:#e866ec;
     width: 90%;
     border-radius: 5px;
     position:relative;
     margin-top: -20px;
     padding: 5px;
-    /* background-color: var(--gray-bg); */
 }
 
 .card-body {
-    color: hotpink;
+    color: #e866ec;
     padding: 0 15px;
 }
 
@@ -63,5 +62,4 @@ section.row {
     color: white;
     border-radius: 5px;
     margin: 25px;
-    flex: 1 1 content;
 }
